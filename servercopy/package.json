@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-   "build": "npm i"
+    "build": "npm i"
   },
   "license": "MIT",
   "dependencies": {
@@ -17,5 +17,8 @@
     "mongoose": "^6.1.7",
     "morgan": "^1.10.0",
     "punycode": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
